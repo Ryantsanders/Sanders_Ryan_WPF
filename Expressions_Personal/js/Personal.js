@@ -16,7 +16,15 @@ var name = prompt("Hello, we haven\'t met before could you please tell me your n
 alert("Hello there "+name+", I am trying to figure out how much waster you drink every 6 months")
 
 
-
-var waterDrankDaily = prompt("How many glasses of  water do you drink on a daily basis?");
+//Asking how many glasses of water they drink on a daily basis
+var waterDrankDaily = prompt("How many glasses of water do you drink on a daily basis?");
 console.log(waterDrankDaily);
+
+//So now I need to take the info they gave me and multiply it by 183 because that's how many days are in 6months
+
+
+// 183days in 6months
+var daysMonthsSix = 183;
+
+
 
