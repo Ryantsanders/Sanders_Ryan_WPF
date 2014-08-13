@@ -26,13 +26,14 @@ alert("You drink " +waterDrankDaily+ " glasses of water a day.")
 //So now I need to take the info they gave me and multiply it by 183 because that's how many days are in 6months
 
 
-// 183days in 6months which is var a
+// 183days in 6months also there are 8oz in glass of water
 var daysMonths = 183;
 
 //multiplying the daily water drank times how many days are in a month
 var totalDrank = waterDrankDaily * daysMonths;
 console.log(totalDrank);
 
+//Telling the user how much water they will consume over the next 6 months
 alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
 
 
