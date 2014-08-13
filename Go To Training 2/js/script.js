@@ -27,3 +27,14 @@ var yearBorn = prompt ("what year were you born?");
 
 //Console.log out the response
 console.log(yearBorn);
+
+//Current Year and subtract the year their were born
+
+
+var currentYear = 2014;
+
+//Calculate the age
+var age = currentYear - yearBorn;
+
+//Alert user of their age
+alert(name+" you are "+age+" years old.");
