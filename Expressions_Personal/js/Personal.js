@@ -13,18 +13,28 @@
 var name = prompt("Hello, we haven\'t met before could you please tell me your name");
 
 //alerting the user and greeting them as well as letting them know what is going on
-alert("Hello there "+name+", I am trying to figure out how much waster you drink every 6 months")
+alert("Hello there "+name+", I am trying to figure out how much water you drink every 6 months")
 
 
 //Asking how many glasses of water they drink on a daily basis
 var waterDrankDaily = prompt("How many glasses of water do you drink on a daily basis?");
 console.log(waterDrankDaily);
 
+alert("You drink " +waterDrankDaily+ " glasses of water a day.")
+
 //So now I need to take the info they gave me and multiply it by 183 because that's how many days are in 6months
 
 
-// 183days in 6months
-var daysMonthsSix = 183;
+// 183days in 6months which is var a
+var daysMonths = 183;
+
+//multiplying the daily water drank times how many days are in a month
+var totalDrank = waterDrankDaily * daysMonths;
+console.log(totalDrank);
+
+
+
+
 
 
 
