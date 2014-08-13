@@ -11,6 +11,7 @@
 
 //Asking the user for their name to get everything started
 var name = prompt("Hello, we haven\'t met before could you please tell me your name");
+console.log(name);
 
 //alerting the user and greeting them as well as letting them know what is going on
 alert("Hello there "+name+", I am trying to figure out how much water you drink every 6 months")
@@ -31,6 +32,8 @@ var daysMonths = 183;
 //multiplying the daily water drank times how many days are in a month
 var totalDrank = waterDrankDaily * daysMonths;
 console.log(totalDrank);
+
+alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
 
 
 
