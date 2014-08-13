@@ -40,6 +40,9 @@ alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over 
 var ounces = 8;
 
 var totalOunce = totalDrank * ounces;
+console.log(totalOunce);
+
+//alerting the user of total ounces drank per 6months
 alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 
 
