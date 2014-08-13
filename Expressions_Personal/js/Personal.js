@@ -36,6 +36,11 @@ console.log(totalDrank);
 //Telling the user how much water they will consume over the next 6 months
 alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
 
+// 8 ounces in a glass of water
+var ounces = 8;
+
+var totalOunce = totalDrank * ounces;
+alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 
 
 
