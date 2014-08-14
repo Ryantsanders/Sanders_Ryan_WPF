@@ -52,6 +52,8 @@ var year = 52;
 var a = year;
 var b = hoursOline * daysUsed * a;
 
+//Alerting the user how many hours they use in a single year
+
 
 
 
