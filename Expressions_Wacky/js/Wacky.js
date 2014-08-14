@@ -25,7 +25,7 @@ console.log(frontFlips+" Front Flips");
 //asking how many back flips they think they can do now
 
 var backFlips = prompt("Back again! alright "+name+" how about back flips how many of them do you think you can do?");
-alert("Alright so you can do "+backFlips+" ? sweet!")
+alert("Alright so you can do "+backFlips+"? sweet!")
 console.log(backFlips+" Back Flips");
 
 
