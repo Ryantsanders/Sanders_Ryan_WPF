@@ -50,7 +50,7 @@ console.log("Alright "+name+" for the final step here I am going to calculate ba
 //multiply how many hours a day they use time days a week times 52 weeks in a  year
 var year = 52;
 var a = year;
-var b = hoursOline * daysUsed * a;
+var b = hoursOnline * daysUsed * a;
 
 //Alerting the user how many hours they use in a single year
 alert("The moment we have been waiting for "+name+" the final answer is here you would use "+b+" hours on the internet in a single year.");
