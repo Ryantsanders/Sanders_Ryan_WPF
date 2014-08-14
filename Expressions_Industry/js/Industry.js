@@ -15,6 +15,7 @@ console.log(name);
 
 //alerting the user and greeting them as well as letting them know what is going on
 alert("Hello there "+name+", I am trying to calculate how often you are surfing the web or using the internet in general.");
+console.log("Hello there "+name+", I am trying to calculate how often you are surfing the web or using the internet in general.");
 
 //asking how many hours they spend on the internet
 var hoursOnline = prompt("How many hours do you normally use the internet daily "+name+"?");
