@@ -15,13 +15,14 @@ console.log(name);
 
 //alerting the user and greeting them as well as letting them know what is going on
 alert("Hello there "+name+", I am trying to figure out how much water you drink every 6 months")
-
+console.log("Hello there "+name+", I am trying to figure out how much water you drink every 6 months");
 
 //Asking how many glasses of water they drink on a daily basis
 var waterDrankDaily = prompt("How many glasses of water do you drink on a daily basis?");
 console.log(waterDrankDaily+" glasses");
 
-alert("You drink " +waterDrankDaily+ " glasses of water a day.")
+alert("You drink " +waterDrankDaily+ " glasses of water a day.");
+console.log("Hello there "+name+", I am trying to figure out how much water you drink every 6 months")
 
 //So now I need to take the info they gave me and multiply it by 183 because that's how many days are in 6months
 
@@ -35,6 +36,7 @@ console.log("Hi again "+name+", you will consume "+totalDrank+" glasses of water
 
 //Telling the user how much water they will consume over the next 6 months
 alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
+console.log("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
 
 // 8 ounces in a glass of water
 var ounces = 8;
@@ -44,9 +46,8 @@ var totalOunce = totalDrank * ounces;
 console.log(totalOunce+" Ounces");
 
 //alerting the user of total ounces drank per 6months
-console.log("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
-
+console.log("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 //alerting user about Converting ounces into gallons
 
 alert("Ok, "+name+" we are now going to convert the amount of ounces you drink to gallons.");
