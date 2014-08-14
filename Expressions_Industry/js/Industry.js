@@ -53,7 +53,7 @@ var a = year;
 var b = hoursOline * daysUsed * a;
 
 //Alerting the user how many hours they use in a single year
-
+alert("The moment we have been waiting for "+name+" the final answer is here you would use "+b+" hours on the internet in a single year.");
 
 
 
