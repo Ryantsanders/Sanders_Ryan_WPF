@@ -7,7 +7,7 @@
 
 //alert("Test");
 
-//Going to calculate how many hours are spent surfing the web
+//Going to calculate how mmuch time a user spends using the internet
 
 //Asking the user for their name to get everything started
 var name = prompt("Hello, my name is Ryan nice to meet you, could you please tell me your name");
