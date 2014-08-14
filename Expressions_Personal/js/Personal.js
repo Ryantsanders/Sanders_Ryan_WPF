@@ -19,7 +19,7 @@ alert("Hello there "+name+", I am trying to figure out how much water you drink 
 
 //Asking how many glasses of water they drink on a daily basis
 var waterDrankDaily = prompt("How many glasses of water do you drink on a daily basis?");
-console.log(waterDrankDaily);
+console.log(waterDrankDaily+" glasses.");
 
 alert("You drink " +waterDrankDaily+ " glasses of water a day.")
 
