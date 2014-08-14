@@ -39,6 +39,7 @@ alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over 
 // 8 ounces in a glass of water
 var ounces = 8;
 
+// multiplying the total amount of ounces the user consumes
 var totalOunce = totalDrank * ounces;
 console.log(totalOunce+" Ounces");
 
