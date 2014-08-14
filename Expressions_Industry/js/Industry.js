@@ -17,5 +17,11 @@ console.log(name);
 alert("Hello there "+name+", I am trying to calculate how often you are surfing the web or using it in general.");
 
 //asking how many hours they spend on the internet
-var hoursOnline = prompt("How many hours do your normally use the internet daily?");
-console.log(hoursOnline);
+var hoursOnline = prompt("How many hours do you normally use the internet daily "+name+"?");
+console.log(hoursOnline+" Hours");
+
+//going to ask the user how many days a week they use the internet
+
+var daysUsed = prompt("Alright "+name+" would you mind telling me how many day out of the week you use the internet?");
+
+console.log(daysUsed);
