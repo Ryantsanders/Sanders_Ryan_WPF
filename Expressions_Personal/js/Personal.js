@@ -94,7 +94,7 @@ alert("This is our final meeting "+name+"! after some calculations I have figure
 console.log("This is our final meeting "+name+"! after some calculations I have figured out that it would take you an estimated "+yearsDrank+" years to consume a pool with the volume of "+a+" gallons.");
 
 
-
+//NOTES not sure how the last part turned out I am really pressed for time I just wanted to show that I was capable of using  assignment operators
 
 
 
