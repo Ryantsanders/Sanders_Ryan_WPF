@@ -28,6 +28,13 @@ console.log(daysUsed+" days out of the week");
 alert("Ok "+name+" now that we got that out of the way I am going to calculate how many hours a week you use the internet.");
 
 //Multiplying hours online a day times days using the internet
-var hoursWeek = hoursOnline * daysUsed;
+
+var hoursSpent = [hoursOnline, daysUsed];
+var hoursDays = hoursSpent[0] * hoursSpent[1];
 alert("Hey "+name+" you normally use "+hoursWeek+" hours on the internet weekly.");
 console.log("Hey "+name+" you normally use "+hoursWeek+" hours on the internet weekly.");
+
+
+
+
+
