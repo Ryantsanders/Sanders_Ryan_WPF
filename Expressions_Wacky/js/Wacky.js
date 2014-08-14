@@ -19,8 +19,8 @@ var a = IceCream;
 var b = Syrup;
 var c = Milk;
 
-var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from IceCream being "+a+", Syrup being"+b+", Milk being"+c+" please enter your choice.");
-
+var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from "+a+", "+b+", "+c+" please enter your choice.");
+console.log(itemChosen);
 
 
 
