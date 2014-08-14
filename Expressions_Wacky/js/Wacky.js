@@ -30,10 +30,8 @@ console.log(backFlips+" Back Flips");
 
 //going to add up how many total flips they have done so far
 
-var totalFlips = frontFlips + Number(backFlips);
+var totalFlips = frontFlips +parseInt(backFlips);
 console.log(totalFlips);
-
-
 
 
 //alerting them that I have added how many flips they have done
