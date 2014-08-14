@@ -31,7 +31,7 @@ var daysMonths = 183;
 
 //multiplying the daily water drank times how many days are in a month
 var totalDrank = waterDrankDaily * daysMonths;
-console.log(totalDrank);
+console.log("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
 
 //Telling the user how much water they will consume over the next 6 months
 alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over the next 6 months.");
@@ -43,6 +43,7 @@ var totalOunce = totalDrank * ounces;
 console.log(totalOunce);
 
 //alerting the user of total ounces drank per 6months
+console.log("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 
 
