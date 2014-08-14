@@ -13,6 +13,10 @@ console.log(name);
 alert("Hello there "+name+", this time around we are going to go on a wacky adventure hope you're ready!");
 console.log("Hello there "+name+", this time around we are going to go on a wacky adventure hope you're ready!");
 
+var itemChoices = [IceCream, Syrup, Milk];
+
+var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from IceCream being 0, Syrup being 1, Milk being two please enter your choice.");
+
 
 
 
