@@ -28,6 +28,13 @@ var backFlips = prompt("Back again! alright "+name+" how about back flips how ma
 alert("Alright so you can do "+backFlips+"? sweet!")
 console.log(backFlips+" Back Flips");
 
+//going to add up how many total flips they have done so far
+
+//alerting them that I have added how many flips they have done
+alert("Heya "+name+" I have calculated the total number of flips you said you could do!");
+console.log("So you think you can do "+frontFlips+" front flips ok great!");
+
+
 
 
 
