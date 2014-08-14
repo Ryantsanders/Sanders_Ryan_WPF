@@ -47,6 +47,11 @@ console.log(totalOunce+" Ounces");
 console.log("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
 
+//Converting ounces into gallons
+
+var OuncesToGallons = 128;
+var totalGallons = totalOunce / 128;
+
 
 
 
