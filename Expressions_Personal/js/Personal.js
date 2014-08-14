@@ -84,10 +84,11 @@ console.log(volume+" Gallons of water");
 
 //Now to divide the
 var a = volume;
+//6 because that is the number of months we were finding in the first place
+var b = 6;
 
-var b = totalGallons;
-
-var monthsDrank = a / b;
+var monthsDrank = a / totalGallons * b;
+console.log(monthsDrank);
 
 
 
