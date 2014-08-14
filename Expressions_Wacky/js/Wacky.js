@@ -18,6 +18,9 @@ console.log("Hello there "+name+", this time around we are going to go on a wack
 var frontFlips = prompt("Hiya "+name+" I am just curious how many front flips do you think you could perform in a row on a trampoline?");
 console.log("Hiya "+name+" I am just curious how many front flips do you think you could perform in a row on a trampoline?");
 
+//alerting the user about how many front flips they think they can do
+alert("So you think you can do "+frontFlips+" front flips ok great!");
+
 
 
 
