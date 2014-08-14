@@ -52,9 +52,11 @@ alert("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of
 alert("Ok, "+name+" we are now going to convert the amount of ounces you drink to gallons.");
 console.log("Ok, "+name+" we are now going to convert the amount of ounces you drink to gallons.");
 
+//Added new variables ounceInGallons because there are 128 ounces in 1 gallon
 var ounceInGallons = 128;
-
+//Total gallons after dividing the total ounces by how many ounces are in a gallon
 var totalGallons = totalOunce / ounceInGallons;
+console.log("Hello "+name+" after converting ounces to gallons I have calculated that you will drink "+totalGallons+" gallons of water over 6 months.");
 
 
 
