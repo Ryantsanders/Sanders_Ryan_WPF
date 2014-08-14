@@ -23,3 +23,7 @@ console.log(hoursOnline+" Hours");
 //going to ask the user how many days a week they use the internet
 var daysUsed = prompt("Alright "+name+" would you mind telling me how many day out of the week you use the internet?");
 console.log(daysUsed+" days out of the week");
+
+//going to alert them that I have determined the number of hours the spend on the internet a week
+alert("Ok "+name+" now that we got that out of the way I am going to calculate how many hours a week you use the internet.");
+
