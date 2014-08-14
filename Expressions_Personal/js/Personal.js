@@ -19,7 +19,7 @@ alert("Hello there "+name+", I am trying to figure out how much water you drink 
 
 //Asking how many glasses of water they drink on a daily basis
 var waterDrankDaily = prompt("How many glasses of water do you drink on a daily basis?");
-console.log(waterDrankDaily+" glasses.");
+console.log(waterDrankDaily+" glasses");
 
 alert("You drink " +waterDrankDaily+ " glasses of water a day.")
 
@@ -40,7 +40,7 @@ alert("Hi again "+name+", you will consume "+totalDrank+" glasses of water over 
 var ounces = 8;
 
 var totalOunce = totalDrank * ounces;
-console.log(totalOunce);
+console.log(totalOunce+" Ounces");
 
 //alerting the user of total ounces drank per 6months
 console.log("If you were wondering "+name+" that comes out to "+totalOunce+" ounces of water per 6 months");
