@@ -27,7 +27,7 @@ console.log(daysUsed+" days out of the week");
 //going to subtract how many hours they use the internet from hours in a day to determine how many hours they aren't using the internet in a day
 var hoursInDay = 24;
 var hoursNotUsed = hoursInDay - hoursOnline;
-Alert("Hey, "+name+" I just wanted to mention that you weren/t using the ")
+Alert("Hey, "+name+" I just wanted to mention that you weren/t using the internet "+hoursNotUsed+" hours out of the day.");
 
 
 //going to alert them that I have determined the number of hours the spend on the internet a week
