@@ -63,6 +63,17 @@ alert("Hello "+name+" after converting ounces to gallons I have calculated that 
 console.log("Hello "+name+" after converting ounces to gallons I have calculated that you will drink "+totalGallons+" gallons of water over 6 months.");
 
 //Trying to figure a way to use three factors or givens
+//Ok so here we have the width, height, depth of a pool.
+
+var width = 10;
+
+var height = 10;
+
+var depth = 10;
+
+var volume = width * height * depth;
+console.log(volume);
+
 
 
 
