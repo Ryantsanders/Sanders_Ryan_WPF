@@ -47,6 +47,12 @@ console.log("Hey "+name+" you normally use "+hoursDays+" hours on the internet w
 alert("Alright "+name+" for the final step here I am going to calculate based on the information you gave me how many hours of the internet you use in a single year.");
 console.log("Alright "+name+" for the final step here I am going to calculate based on the information you gave me how many hours of the internet you use in a single year.");
 
+//multiply how many hours a day they use time days a week times 52 weeks in a  year
+var year = 52;
+var a = year;
+var b = hoursOline * daysUsed * a;
+
+
 
 
 
