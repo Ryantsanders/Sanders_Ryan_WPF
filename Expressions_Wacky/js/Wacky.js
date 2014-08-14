@@ -35,7 +35,7 @@ var totalFlips = frontFlips + backFlips;
 
 
 //alerting them that I have added how many flips they have done
-alert("Heya "+name+" I have calculated the total number of flips you said you could do!");
+alert("Heya "+name+" I have calculated the total number of flips you said you could do! It came out to be "+totalFlips+" alright "+name+" get to it! this is something I want to see!");
 
 
 
