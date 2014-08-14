@@ -15,7 +15,11 @@ console.log("Hello there "+name+", this time around we are going to go on a wack
 
 var itemChoices = [IceCream, Syrup, Milk];
 
-var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from IceCream being 0, Syrup being 1, Milk being two please enter your choice.");
+var a = IceCream;
+var b = Syrup;
+var c = Milk;
+
+var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from IceCream being "+a+", Syrup being"+b+", Milk being"+c+" please enter your choice.");
 
 
 
