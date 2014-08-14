@@ -31,6 +31,7 @@ alert("Ok "+name+" now that we got that out of the way I am going to calculate h
 var hoursSpent = [hoursOnline, daysUsed];
 var hoursDays = hoursSpent[0] * hoursSpent[1];
 
+//Alerting the user how many hours a week they use the internet
 alert("Hey "+name+" you normally use "+hoursDays+" hours on the internet weekly.");
 console.log("Hey "+name+" you normally use "+hoursDays+" hours on the internet weekly.");
 
