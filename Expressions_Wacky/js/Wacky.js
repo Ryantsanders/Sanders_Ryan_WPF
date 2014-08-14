@@ -13,14 +13,11 @@ console.log(name);
 alert("Hello there "+name+", this time around we are going to go on a wacky adventure hope you're ready!");
 console.log("Hello there "+name+", this time around we are going to go on a wacky adventure hope you're ready!");
 
-var itemChoices = [IceCream, Syrup, Milk];
+//Going to calculate a bunch of random things based on user input
 
-var a = IceCream;
-var b = Syrup;
-var c = Milk;
+var frontFlips = prompt("Hiya "+name+" I am just curious how many front flips do you think you could perform in a row on a trampoline?");
+console.log("Hiya "+name+" I am just curious how many front flips do you think you could perform in a row on a trampoline?");
 
-var itemChosen = prompt("Hiya "+name+" I have a few choices here id like you to pick from please enter your choice.");
-console.log(itemChosen);
 
 
 
