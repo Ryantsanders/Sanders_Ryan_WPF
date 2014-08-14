@@ -75,8 +75,22 @@ var depth = 10;
 alert("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool with the measurements of 10 Width, 10 Height and 10 depth.");
 console.log("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool with the measurements of 10 Width, 10 Height and 10 depth.");
 
+//Ok now we need to determine how much water per day is being drank
+
+
+
 var volume = width * height * depth;
 console.log(volume+" Gallons of water");
+
+//Now to divide the
+var a = volume;
+
+var b = totalGallons;
+
+var monthsDrank = a / b;
+
+
+
 
 
 
