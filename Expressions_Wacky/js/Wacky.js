@@ -30,8 +30,8 @@ console.log(backFlips+" Back Flips");
 
 //going to add up how many total flips they have done so far
 
-
-var totalFlips = frontFlips + backFlips;
+// I really wanted to add them together I tried what I could think of and even followed the goto training script but it will just added them as strings
+var totalFlips = frontFlips * backFlips;
 console.log(totalFlips+" Flips");
 
 
