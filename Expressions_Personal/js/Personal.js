@@ -72,7 +72,7 @@ var height = 10;
 var depth = 10;
 
 //Going to see how many days it would take to drink a pool with the measurements of width 10, height 10, depth 10
-alert("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool with the measurements of 10 Width, 10 Height and 10 depth.");
+alert("Alright "+name+" The final step! we are going to calculate how many long it would to take you to drink a pool with the measurements of 10 Width, 10 Height and 10 depth.");
 console.log("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool with the measurements of 10 Width, 10 Height and 10 depth.");
 
 //Ok now we need to determine how much water per day is being drank
@@ -84,11 +84,14 @@ console.log(volume+" Gallons of water");
 
 //Now to divide the
 var a = volume;
-//6 because that is the number of months we were finding in the first place
-var b = 6;
 
-var monthsDrank = a / totalGallons * b;
-console.log(monthsDrank);
+//dividing the volume by the total gallons drank per 6 months then dividing it by 2 to get the amount of years it would take
+
+var yearsDrank = a / totalGallons /2;
+
+//alerting the user how long it would take them to consume the pool
+alert("This is our final meeting "+name+"! after some calculations I have figured out that it would take you an estimated "+yearsDrank+" years to consume a pool with the volume of "+a+" gallons.");
+console.log("This is our final meeting "+name+"! after some calculations I have figured out that it would take you an estimated "+yearsDrank+" years to consume a pool with the volume of "+a+" gallons.");
 
 
 
