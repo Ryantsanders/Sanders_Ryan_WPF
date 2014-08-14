@@ -42,6 +42,10 @@ alert("Hey "+name+" you normally use "+hoursDays+" hours on the internet weekly.
 console.log("Hey "+name+" you normally use "+hoursDays+" hours on the internet weekly.");
 
 
+//last thing going to total up how many hours they would use the internet in a year based on info given
+alert("Alright "+name+" for the final step here I am going to calculate based on the information you gave me how many hours of the internet you use in a single year.")
+
+
 
 
 
