@@ -72,7 +72,9 @@ var height = 10;
 var depth = 10;
 
 //Going to see how many days it would take to drink a pool with the measurements of width 10, height 10, depth 10
-alert("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool witht he measurements of 10 Width, 10 Height and 10 depth.")
+alert("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool witht he measurements of 10 Width, 10 Height and 10 depth.");
+console.log("Alright "+name+" The final step! we are going to calculate how many days it would to take you to drink a pool witht he measurements of 10 Width, 10 Height and 10 depth.");
+
 var volume = width * height * depth;
 console.log(volume);
 
