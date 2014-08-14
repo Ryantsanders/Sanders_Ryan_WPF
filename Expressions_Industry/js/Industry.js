@@ -14,7 +14,7 @@ var name = prompt("Hello, my name is Ryan nice to meet you, could you please tel
 console.log(name);
 
 //alerting the user and greeting them as well as letting them know what is going on
-alert("Hello there "+name+", I am trying to calculate how often you are surfing the web or using it in general.");
+alert("Hello there "+name+", I am trying to calculate how often you are surfing the web or using the internet in general.");
 
 //asking how many hours they spend on the internet
 var hoursOnline = prompt("How many hours do you normally use the internet daily "+name+"?");
@@ -30,4 +30,4 @@ alert("Ok "+name+" now that we got that out of the way I am going to calculate h
 //Multiplying hours online a day times days using the internet
 var hoursWeek = hoursOnline * daysUsed;
 alert("Hey "+name+" you normally use "+hoursWeek+" hours on the internet weekly.");
-console.log("");
+console.log("Hey "+name+" you normally use "+hoursWeek+" hours on the internet weekly.");
