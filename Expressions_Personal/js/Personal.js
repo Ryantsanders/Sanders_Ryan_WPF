@@ -71,6 +71,7 @@ var height = 10;
 
 var depth = 10;
 
+//Going to see how many days it would take to drink a pool with the measurements of width 10, height 10, depth 10
 var volume = width * height * depth;
 console.log(volume);
 
