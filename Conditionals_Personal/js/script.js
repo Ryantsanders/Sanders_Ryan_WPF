@@ -43,18 +43,14 @@ console.log(age+" Years old.");
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
-var gender = prompt("Oops"+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
-
-
-
-
-
+var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
+console.log(gender);
 
 
 //going to set up the ternary it's just going to be simple because if I start to go with super ideas I have I end up with too many lightbulbs and not enough switches xD
 
 var movie;
 
-movie = (age < 13)? "The Ninja Turtles": "Transformers";
+movie = (age < 13)? "The Ninja Turtles, Transformers, Guardians of the Galaxy":
  console.log(movie);
 
