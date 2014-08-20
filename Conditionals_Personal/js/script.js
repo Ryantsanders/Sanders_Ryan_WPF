@@ -29,7 +29,7 @@ alert("Alright "+ name +", the theme of today is movies!!");
 
 //asking age and making age variable
 var age = prompt("say "+ name +", would you mind letting me know your age so I can suggest some movies for you?");
- console.log(age);
+ console.log(age+" Years old.");
 
 //validating the age prompt
 
@@ -38,10 +38,18 @@ var age = prompt("say "+ name +", would you mind letting me know your age so I c
      age = prompt("Well it is understandable you may not want me knowing your age, but if I don't know then I can't help! don't worry it will be our secret pinky promise!");
 
  }
-    console.log(age);
+console.log(age+" Years old.");
 
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
+
+
+
+
+
+
+
+
 
 //going to set up the ternary it's just going to be simple because if I start to go with super ideas I have I end up with too many lightbulbs and not enough switches xD
 
@@ -49,3 +57,4 @@ var movie;
 
 movie = (age < 13)? "The Ninja Turtles": "Transformers";
  console.log(movie);
+
