@@ -54,7 +54,7 @@ var movieBoy;
 
 //making a selection for boy's based on age
 movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
- console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
+ //console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
 
 
 
@@ -62,7 +62,7 @@ movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "T
 var movieGirl;
 
 movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The Legend of Oz Dorothy's Return,The Croods , Guardians of the Galaxy";
- console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
+ //console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 
 
 //going to attempt to make a if statement
@@ -73,7 +73,8 @@ var girl = movieGirl;
 
 if(gender === boy){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
-}else{
+}
+if(gender === girl){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 }
 
