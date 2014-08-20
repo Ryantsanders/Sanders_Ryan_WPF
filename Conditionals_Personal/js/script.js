@@ -52,5 +52,5 @@ console.log(gender);
 var movieBoy;
 
 movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
- console.log(movieBoy);
+ console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
 
