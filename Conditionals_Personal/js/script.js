@@ -43,8 +43,8 @@ console.log(age+" Years old.");
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
-
-
+var gender = prompt("Oops"+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
+alert("Oops"+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
 
 
 
