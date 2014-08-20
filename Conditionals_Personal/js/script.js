@@ -43,6 +43,7 @@ console.log(age+" Years old.");
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
+//asking user for gender
 var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
 console.log(gender);
 
@@ -51,6 +52,15 @@ console.log(gender);
 
 var movieBoy;
 
+//making a selection for boy's based on age
 movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
  console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
+
+
+var movieGirl;
+
+movieGirl = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
+ console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
+
+
 
