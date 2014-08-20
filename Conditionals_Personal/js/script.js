@@ -47,4 +47,5 @@ alert("Ok "+ name +", based on the info you have given me I have selected a movi
 
 var movie;
 
-movie = (age < 13)? "The Ninja Turtles": ""
+movie = (age < 13)? "The Ninja Turtles": "Transformers";
+ console.log(movie);
