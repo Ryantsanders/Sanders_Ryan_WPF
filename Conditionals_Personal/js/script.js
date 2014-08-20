@@ -49,8 +49,8 @@ console.log(gender);
 
 //going to set up the ternary it's just going to be simple because if I start to go with super ideas I have I end up with too many lightbulbs and not enough switches xD
 
-var movie;
+var movieBoy;
 
-movie = (age < 13)? "The Ninja Turtles, Transformers, Guardians of the Galaxy":
- console.log(movie);
+movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
+ console.log(movieBoy);
 
