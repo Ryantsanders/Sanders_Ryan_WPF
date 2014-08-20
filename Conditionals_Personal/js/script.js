@@ -59,7 +59,7 @@ movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "T
 
 var movieGirl;
 
-movieGirl = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "The Ninja Turtles, Transformers, Guardians of the Galaxy";
+movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The Legend of Oz Dorothy's Return, Transformers, Guardians of the Galaxy";
  console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 
 
