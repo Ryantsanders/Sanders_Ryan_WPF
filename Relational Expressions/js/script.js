@@ -34,3 +34,6 @@ if(kidHeight > minHeight){
     //equality ==
     //strict quality ===
     //inequality !=
+
+    // and && requires both in the pair to be both be true
+    // or
