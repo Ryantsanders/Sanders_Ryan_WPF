@@ -65,9 +65,12 @@ movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "T
 //making a  selection for girl's based on age
 var movieGirl;
 
+//this si the variable if the gender is choses as a girl
 movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The Legend of Oz Dorothy's Return,The Croods , Guardians of the Galaxy";
  //console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 
+
+// here I tried to make an OR so that it would accept it with either a lower case or a upper case but can't seem to get it to work
 var male = gender === "Boy"|| "boy";
 var female = gender === "Girl" || "girl";
 
