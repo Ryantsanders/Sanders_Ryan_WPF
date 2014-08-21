@@ -42,3 +42,5 @@ var adventure = prompt("Would you like to go on an adventure! answer simply with
 //another prompt will be made as wella s an alert
 
 alert("alright so you made it on the train! nice job and if you happened to have chose not to go on an adventure I see you changed your mind!");
+
+var place = prompt("Hmm where should we get off at the zoo or should we go to sea world! you get to choose");
