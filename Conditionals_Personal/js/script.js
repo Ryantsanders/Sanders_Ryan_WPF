@@ -40,11 +40,11 @@ var age = prompt("say "+ name +", would you mind letting me know your age so I c
  }
 console.log(age+" Years old.");
 
-
+//simple alert
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
 //asking user for gender
-var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl ?");
+var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl? (Please enter your choice with all lower case)");
 console.log(gender);
 
  if(gender === "") {
