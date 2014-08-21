@@ -24,7 +24,7 @@ Name of Assignment
 
 //putting a prompt about answering yes or no
 
-var adventure = prompt("Would you like to go on an adventure! answer simply wiht a yes or a no");
+var adventure = prompt("Would you like to go on an adventure! answer simply with a yes or a no");
  if(adventure === ""){
 
  }
