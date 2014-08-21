@@ -15,7 +15,12 @@ Name of Assignment
  var name  = prompt("Hello there! how are you doing and what might your name be?");
  console.log(name);
 
+ if(age === "") {
+     age = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
+
+ }
+
  //simple alert saying whats going on
 alert("Alright! so you want to build your own web site i'll help you out with prices!");
 
- var budget = prompt("Please enter the amount of money you have for your budget"");
+ var budget = prompt("Please enter the amount of money you have for your budget");
