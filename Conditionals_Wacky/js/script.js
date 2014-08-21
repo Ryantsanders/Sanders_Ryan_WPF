@@ -19,3 +19,5 @@ Name of Assignment
 
  }
  console.log(name);
+
+ alert("welcome to my random, wild, crazy adventure! well actually I doubt it will be anything like that");
