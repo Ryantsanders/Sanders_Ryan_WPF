@@ -54,6 +54,8 @@ if(place === ""){
  var zoo = "zoo";
  var seaWorld = "sea world";
 
+
+ //iff variable for going to the zoo or seaworld
  if(place === zoo){
      console.log("Nice choice "+ name +", I bet here we can see lots of animals like lions, tigers and bears OH MY!!!");
      alert("Nice choice "+ name +", I bet here we can see lots of animals like lions, tigers and bears OH MY!!!")
