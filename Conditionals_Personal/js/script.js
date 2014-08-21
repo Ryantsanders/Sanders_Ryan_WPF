@@ -71,7 +71,7 @@ movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The 
 
 //going to attempt to make a if statement
 
-if(gender === "boy"){
+if(gender === "boy" || "Boy"){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
 }
 if(gender === "girl"){
