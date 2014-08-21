@@ -15,11 +15,11 @@ Name of Assignment
  var name  = prompt("Hello there! how are you doing and what might your name be?");
  console.log(name);
 
- if(age === "") {
-     age = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
+ if(name === "") {
+     name = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
 
  }
-
+console.loge(name);
  //simple alert saying whats going on
 alert("Alright! so you want to build your own web site i'll help you out with prices!");
 
