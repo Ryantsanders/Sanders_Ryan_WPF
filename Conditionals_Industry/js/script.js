@@ -10,8 +10,9 @@ Name of Assignment
 
 
 
-//Gonna try to set up something about havinga  web page built
+//Gonna try to set up something about having a  web page built
 
+ //added name prompt and to check for validation
  var name  = prompt("Hello there! how are you doing and what might your name be?");
 
 
