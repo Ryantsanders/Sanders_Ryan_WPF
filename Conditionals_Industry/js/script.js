@@ -32,4 +32,20 @@ alert("Alright! so you want to build your own web site i'll help you out with pr
      budget = prompt("I can see you don't want me to get my hands on your money! but if I don't know your budget I can't help you!");
 
  }
- console.log(budget+ " Dollars");
+ console.log(budget+ " Dollars is your budget.");
+
+//made new variables
+var webDesign = 50;
+var webDev = 60;
+var server = 25;
+
+alert("ok so now "+ name +" what I am going to do is some basic math based on the things we need in order to hire a web designer, developer and server to host your website on.");
+
+
+var totalCost = webDesign + webDev + server;
+
+if(totalCost < budget){
+    console.log("Great news "+ name +" after going over the costs and your budget you are able to get everything you need to make a website!");
+}else{
+    console.log("aww I am very sorry "+ name +" your budget isn't enough to cover all the costs needed I suggest you save up some more money and you can try again.");
+}
