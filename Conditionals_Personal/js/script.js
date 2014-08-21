@@ -11,7 +11,7 @@ Name of Assignment
 
 // going to do something about movies perhaps since it would be a good fit to use a ternary
 var name  = prompt("Why hello there visitor from another dimension. Who am I? no need to worry about that right now might I instead suggest you tell me your name?");
- console.log(name);
+
 
 //validating the prompt
  if(name === "") {
@@ -29,7 +29,7 @@ alert("Alright "+ name +", the theme of today is movies!!");
 
 //asking age and making age variable
 var age = prompt("say "+ name +", would you mind letting me know your age so I can suggest some movies for you?");
- console.log(age+" Years old.");
+
 
 //validating the age prompt
 

@@ -24,6 +24,8 @@ Name of Assignment
  //simple alert saying whats going on
 alert("Alright! so you want to build your own web site i'll help you out with prices!");
 
+
+ //made the budget variable as well as a validating prompt
  var budget = prompt("Please enter the amount of money you have for your budget");
 
  if(budget === "") {
