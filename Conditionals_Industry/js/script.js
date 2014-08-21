@@ -53,3 +53,5 @@ if(totalCost < budget){
 }else{
     console.log("aww I am very sorry "+ name +" your budget isn't enough to cover all the costs needed I suggest you save up some more money and you can try again.");
 }
+
+//this one was pretty short but I think my first one done was quite long and it had just about everything needed in it
