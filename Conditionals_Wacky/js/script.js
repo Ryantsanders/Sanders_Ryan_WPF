@@ -35,5 +35,5 @@ var adventure = prompt("Would you like to go on an adventure! answer simply wiht
  if(adventure === "yes"){
      console.log("ALRIGHT, all aboard the adventure train!");
  }else{
-     console.log("aww I am very sorry "+ name +" your budget isn't enough to cover all the costs needed I suggest you save up some more money and you can try again.");
+     console.log("Hmm guess you weren't ready for a fun day! it's alright im sure there is something on Netflix you can watch!");
  }
