@@ -20,14 +20,14 @@ Name of Assignment
 
  }
  console.log(name);
- 
+
  //simple alert saying whats going on
 alert("Alright! so you want to build your own web site i'll help you out with prices!");
 
  var budget = prompt("Please enter the amount of money you have for your budget");
 
  if(budget === "") {
-     budget = prompt("Well it is understandable you may not want me knowing your age, but if I don't know then I can't help! don't worry it will be our secret pinky promise!");
+     budget = prompt("I can see you don't want me to get my hands on your money! but if I don't know your budget I can't help you!");
 
  }
- console.log(budget+ "Dollars");
+ console.log(budget+ " Dollars");
