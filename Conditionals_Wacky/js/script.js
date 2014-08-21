@@ -48,3 +48,9 @@ if(place === ""){
 
 }
  console.log(place);
+
+ if(gender === male){
+     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
+ }else if(gender === female){
+     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
+ }

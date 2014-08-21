@@ -38,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95620435" vertical-offset="80" max-vertical-offset="825">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.95620435" vertical-offset="170" max-vertical-offset="915">
+              <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1410">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="725" max-vertical-offset="1410">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="84" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="945">
               <caret line="55" column="1" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
               <folding />
             </state>
@@ -733,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1410">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="945">
@@ -749,10 +741,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="725" max-vertical-offset="1410">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95620435" vertical-offset="80" max-vertical-offset="825">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.95620435" vertical-offset="170" max-vertical-offset="915">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
           <folding />
         </state>
       </provider>
