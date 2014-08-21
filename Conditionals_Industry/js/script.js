@@ -42,7 +42,7 @@ var server = 25;
 
 alert("ok so now "+ name +" what I am going to do is some basic math based on the things we need in order to hire a web designer, developer and server to host your website on.");
 
-
+//added variable for total cost of website
 var totalCost = webDesign + webDev + server;
  console.log(totalCost+ " Dollars is needed for everything");
 
