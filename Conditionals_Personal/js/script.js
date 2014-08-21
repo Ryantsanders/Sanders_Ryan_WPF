@@ -62,7 +62,7 @@ movieBoy = (age < 13)? "How to Train Your Dragon 2, Planes, Despicable Me 2": "T
 
 
 
-//makinga  selection for girl's based on age
+//making a  selection for girl's based on age
 var movieGirl;
 
 movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The Legend of Oz Dorothy's Return,The Croods , Guardians of the Galaxy";
