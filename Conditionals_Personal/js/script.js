@@ -68,8 +68,8 @@ var movieGirl;
 movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The Legend of Oz Dorothy's Return,The Croods , Guardians of the Galaxy";
  //console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 
-var male = gender === "boy"|| "Boy";
-var female = gender === "girl" || "Girl";
+var male = gender === "Boy"|| "boy";
+var female = gender === "Girl" || "girl";
 
 
 
