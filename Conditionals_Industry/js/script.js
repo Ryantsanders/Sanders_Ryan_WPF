@@ -19,7 +19,8 @@ Name of Assignment
      name = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
 
  }
-console.loge(name);
+ console.log(name);
+ 
  //simple alert saying whats going on
 alert("Alright! so you want to build your own web site i'll help you out with prices!");
 
@@ -29,3 +30,4 @@ alert("Alright! so you want to build your own web site i'll help you out with pr
      budget = prompt("Well it is understandable you may not want me knowing your age, but if I don't know then I can't help! don't worry it will be our secret pinky promise!");
 
  }
+ console.log(budget+ "Dollars");
