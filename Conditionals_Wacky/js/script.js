@@ -50,7 +50,11 @@ if(place === ""){
  console.log(place);
 
  //adding an if, else if for the places to choose from
- if(gender === male){
+
+ var zoo = "zoo";
+ var seaWorld = "sea world";
+
+ if(place === male){
      console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
  }else if(gender === female){
      console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
