@@ -29,3 +29,11 @@ var adventure = prompt("Would you like to go on an adventure! answer simply wiht
 
  }
  console.log(adventure);
+
+//adding another if statement
+
+ if(totalCost < budget){
+     console.log("Great news "+ name +" after going over the costs and your budget you are able to get everything you need to make a website!");
+ }else{
+     console.log("aww I am very sorry "+ name +" your budget isn't enough to cover all the costs needed I suggest you save up some more money and you can try again.");
+ }
