@@ -43,10 +43,15 @@ console.log(age+" Years old.");
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
+
 //asking user for gender
-var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl?");
+var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a "+ boy +" or a "+ girl +" ?");
 console.log(gender);
 
+ if(gender === "") {
+     Gender = prompt("well if I don't know your gender how can I select a movie!!");
+
+ }
 
 //going to set up the ternary it's just going to be simple because if I start to go with super ideas I have I end up with too many lightbulbs and not enough switches xD
 
@@ -67,14 +72,13 @@ movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The 
 
 //going to attempt to make a if statement
 
+ var boySelected = movieBoy;
+ var girlSelected = movieGirl;
 
-var boy = movieBoy;
-var girl = movieGirl;
-
-if(gender === boy){
+if(gender === boySelected){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
 }
-if(gender === girl){
+if(gender === girlSelected){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 }
 
