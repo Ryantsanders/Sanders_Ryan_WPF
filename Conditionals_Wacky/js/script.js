@@ -49,6 +49,7 @@ if(place === ""){
 }
  console.log(place);
 
+ //adding an if, else if for the places to choose from
  if(gender === male){
      console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
  }else if(gender === female){
