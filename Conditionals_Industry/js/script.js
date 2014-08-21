@@ -6,7 +6,7 @@ Name of Assignment
 8-13-2014
  */
 
-//alert("Testing 1,2,3")
+
 
 
 
@@ -33,6 +33,7 @@ alert("Alright! so you want to build your own web site i'll help you out with pr
 
  }
  console.log(budget+ " Dollars is your budget.");
+
 
 //made new variables
 var webDesign = 50;
