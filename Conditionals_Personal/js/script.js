@@ -43,9 +43,8 @@ console.log(age+" Years old.");
 
 alert("Ok "+ name +", based on the info you have given me I have selected a movie! drum roll please!!");
 
-
 //asking user for gender
-var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a "+ boy +" or a "+ girl +" ?");
+var gender = prompt("Oops "+ name +" I am very sorry I forgot to ask if you were a boy or a girl ?");
 console.log(gender);
 
  if(gender === "") {
@@ -72,13 +71,10 @@ movieGirl = (age < 13)? "My Little Pony Equestria Girls, Frozen,Smurfs 2": "The 
 
 //going to attempt to make a if statement
 
- var boySelected = movieBoy;
- var girlSelected = movieGirl;
-
-if(gender === boySelected){
+if(gender === "boy"){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieBoy);
 }
-if(gender === girlSelected){
+if(gender === "girl"){
     console.log("Here you go "+ name +", a few movies I think you might enjoy! "+ movieGirl);
 }
 
