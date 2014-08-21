@@ -34,6 +34,11 @@ var adventure = prompt("Would you like to go on an adventure! answer simply with
 
  if(adventure === "yes"){
      console.log("ALRIGHT, all aboard the adventure train!");
+     alert("ALRIGHT, all aboard the adventure train!");
  }else{
      console.log("Hmm guess you weren't ready for a fun day! it's alright im sure there is something on Netflix you can watch!");
  }
+
+//another prompt will be made as wella s an alert
+
+alert("alright so you made it on the train! nice job and if you happened to have chose not to go on an adventure I see you changed your mind!");
