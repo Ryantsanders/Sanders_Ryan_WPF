@@ -46,6 +46,8 @@ alert("ok so now "+ name +" what I am going to do is some basic math based on th
 var totalCost = webDesign + webDev + server;
  console.log(totalCost+ " Dollars is needed for everything");
 
+
+// if statement for either having enough money for the site or not
 if(totalCost < budget){
     console.log("Great news "+ name +" after going over the costs and your budget you are able to get everything you need to make a website!");
 }else{
