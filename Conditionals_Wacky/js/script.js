@@ -56,6 +56,7 @@ if(place === ""){
 
  if(place === zoo){
      console.log("Nice choice "+ name +", I bet here we can see lots of animals like lions, tigers and bears OH MY!!!");
+     alert("Nice choice "+ name +", I bet here we can see lots of animals like lions, tigers and bears OH MY!!!")
  }else if(place === seaWorld){
      console.log("YES I love this place way to go "+ name +", we can really see some awesome animals here like sharks, whales and dolphins!! ");
  }
