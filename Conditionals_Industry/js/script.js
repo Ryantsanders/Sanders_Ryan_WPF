@@ -13,7 +13,7 @@ Name of Assignment
 //Gonna try to set up something about havinga  web page built
 
  var name  = prompt("Hello there! how are you doing and what might your name be?");
- console.log(name);
+
 
  if(name === "") {
      name = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
