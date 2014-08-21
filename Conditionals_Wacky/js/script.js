@@ -21,3 +21,11 @@ Name of Assignment
  console.log(name);
 
  alert("welcome to my random, wild, crazy adventure! well actually I doubt it will be anything like that!");
+
+//putting a prompt about answering yes or no
+
+var adventure = prompt("Would you like to go on an adventure! answer simply wiht a yes or a no");
+ if(adventure === ""){
+
+ }
+ console.log(adventure);
