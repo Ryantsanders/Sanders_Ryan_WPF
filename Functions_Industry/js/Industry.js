@@ -15,6 +15,8 @@ console.log(name);
 
 alert("So we are going to build a computer get excited!");
 
+var computerCpu = prompt("So which type of CPU do you prefer Intel or Amd?");
+console.log(computerCpu);
 
 
 
