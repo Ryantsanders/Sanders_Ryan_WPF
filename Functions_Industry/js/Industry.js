@@ -18,6 +18,9 @@ alert("So we are going to build a computer get excited!");
 var computerCpu = prompt("So which type of CPU do you prefer Intel or Amd?");
 console.log(computerCpu);
 
+var computerGpu = prompt("hmm next up what type of GPU do you prefer Nvidia or Amd?");
+console.log(computerGpu);
+
 
 
 
