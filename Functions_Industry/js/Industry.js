@@ -18,21 +18,32 @@ if(name === "") {
 }
 console.log(name);
 
+
+//alerting what we are doing
 alert("So we are going to pick out some parts for a computer get excited!");
 
+//var for computer CPU
 var computerCpu = prompt("So which type of CPU do you prefer Intel or Amd?");
 
-
+//start my if statements to give the prices and other variables that go into it
 if(computerCpu === "") {
     computerCpu = prompt("I think that is a really important part! you should think about answering it Intel or Amd?");
 
 }
 console.log(computerCpu);
 
+//varaibles for the prices
 var intelCpu = 500;
+var amdCpu = 300;
+var nvidiaGpu = 700;
+var amdGpu = 400;
 
+
+//if else for the prices of the choices made by the user
 if(computerCpu === "intel"){
     console.log(intelCpu);
+}else{
+    console.log(amdCpu);
 }
 var computerGpu = prompt("hmm next up what type of GPU do you prefer Nvidia or Amd?");
 
@@ -43,6 +54,11 @@ if(computerGpu === "") {
 }
 console.log(computerGpu);
 
+if(computerGpu ==="nvidia"){
+    console.log(nvidiaGpu);
+}else{
+    console.log(AmdGpu);
+}
 
 
 
