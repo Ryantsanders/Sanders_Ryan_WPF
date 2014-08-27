@@ -30,13 +30,13 @@ if(computerCpu === "") {
 console.log(computerCpu);
 
 var computerGpu = prompt("hmm next up what type of GPU do you prefer Nvidia or Amd?");
-console.log(computerGpu);
+
 
 if(computerGpu === "") {
     computerGpu = prompt("I think that is a really important part! you should think about answering it");
 
 }
-console.log(name);
+console.log(computerGpu);
 
 
 
