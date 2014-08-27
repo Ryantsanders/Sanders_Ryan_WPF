@@ -57,7 +57,7 @@ console.log(computerGpu);
 if(computerGpu ==="nvidia"){
     console.log(nvidiaGpu);
 }else{
-    console.log(AmdGpu);
+    console.log(amdGpu);
 }
 
 
