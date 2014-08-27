@@ -13,7 +13,7 @@
 var name = prompt("Hello, my name is Ryan nice to meet you, could you please tell me your name");
 console.log(name);
 
-alert("So we are going to build a computer get excited!");
+alert("So we are going to pick out some parts for a computer get excited!");
 
 var computerCpu = prompt("So which type of CPU do you prefer Intel or Amd?");
 console.log(computerCpu);
