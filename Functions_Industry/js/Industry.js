@@ -43,6 +43,7 @@ console.log(computerGpu);
 
 
 
+
 function calcArea(){
     var width = 20;
     var height = 30;
