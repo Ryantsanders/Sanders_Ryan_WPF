@@ -65,11 +65,11 @@ if(computerGpu ==="nvidia"){
 
 
 
-function calcArea(){
+function calcPrice(){
     var width = 20;
     var height = 30;
     var area = width * height;
     console.log(area);
 }
 
-calcArea();
+calcPrice();
