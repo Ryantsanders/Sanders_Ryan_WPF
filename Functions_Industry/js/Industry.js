@@ -66,10 +66,9 @@ if(computerGpu ==="nvidia"){
 
 
 function calcPrice(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    console.log(area);
+
+    var price = computerCpu + computerGpu;
+    console.log(price);
 }
 
 calcPrice();
