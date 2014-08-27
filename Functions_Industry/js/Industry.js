@@ -29,6 +29,11 @@ if(computerCpu === "") {
 }
 console.log(computerCpu);
 
+var intelCpu = 500;
+
+if(computerCpu === "intel"){
+    console.log(intelCpu);
+}
 var computerGpu = prompt("hmm next up what type of GPU do you prefer Nvidia or Amd?");
 
 
