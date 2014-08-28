@@ -31,7 +31,7 @@ Name of Assignment
 
  }
 
- console.log(gameHours);
+ console.log(gameHours+" Hours");
 
  //variable for days playing a game with validation and while loop
  var gameDays  = prompt("alright so we have the hours out of the way what about days how many do you normally play a game on?");
