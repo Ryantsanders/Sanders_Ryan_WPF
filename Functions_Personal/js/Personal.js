@@ -30,7 +30,7 @@ Name of Assignment
 
  var age  = prompt("hello "+ name +" would you mind telling me your age?");
 
-
+//validating the age prompt
  if(age === "") {
      age = prompt("oh come on if you don't tell me your age I can't go any further!!");
 
@@ -42,15 +42,19 @@ Name of Assignment
  fightingGame = (age >17)? "Mortal Kombat": "Street Fighter";
  console.log(fightingGame);
 
-
+//adding a variable for game type chosen
 var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games? (make your choice by typing either rpg, shooting or adventure");
  if(gameType ===""){
 
  }
+
+ //added more variables based on the certain games
  var rpg = "rpg";
  var shooting = "shooting";
  var adventure = "adventure";
 
+
+//added an else if here so that there would be a reponse in the console per each choice
  if (gameType === rpg){
      console.log("Final Fantasy is a good choice for you "+name+" !");
  }else if(gameType === shooting){
