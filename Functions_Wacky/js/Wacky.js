@@ -30,5 +30,5 @@ Name of Assignment
      gameHours = prompt("Oh, come on you can be that addicted that you won't even share the numbers!!");
 
  }
- console.log(name);
+ console.log(gameHours);
 
