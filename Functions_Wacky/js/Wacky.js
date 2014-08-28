@@ -45,7 +45,15 @@ Name of Assignment
 
  //alerting the user that I have collected their data and calculated with an ano function
 
+var totalHours = function(){
+    var hoursWeek = gameHours * gameDays;
+    return hoursWeek;
+    alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is "+hoursWeek+" hours a week");
+
+}
+
+totalHours();
 
 
- alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is");
+
 
