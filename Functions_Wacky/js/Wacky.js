@@ -22,7 +22,7 @@ Name of Assignment
  //simple alert saying whats going on
  alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours you play games and other things!");
 
-
+//variable and prompt with while loop for game hours
  var gameHours  = prompt("Yo everyone loves video games! I bet you do as well! mind telling me how many hours you play any type of video game a day?");
 
 
@@ -30,8 +30,10 @@ Name of Assignment
      gameHours = prompt("Oh, come on you can be that addicted that you won't even share the numbers!!");
 
  }
+
  console.log(gameHours);
 
+ //variable for days playing a game with validation and while loop
  var gameDays  = prompt("alright so we have the hours out of the way what about days how many do you normally play a game on?");
 
 
