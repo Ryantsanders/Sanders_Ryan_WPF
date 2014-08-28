@@ -32,11 +32,11 @@ Name of Assignment
  }
  console.log(gameHours);
 
- var gameDays  = prompt("Yo everyone loves video games! I bet you do as well! mind telling me how many hours you play any type of video game a day?");
+ var gameDays  = prompt("alright so we have the hours out of the way what about days how many do you normally play a game on?");
 
 
  while(gameDays==="") {
-     gameDays = prompt("Oh, come on you can be that addicted that you won't even share the numbers!!");
+     gameDays = prompt("oh you really are trying to keep it a secret! must be one of those everyday people but really please enter the amount of days!!");
 
  }
  console.log(gameDays);
