@@ -57,6 +57,16 @@ totalHours();
 //couldn't get an alert to pop up with the hoursWeek but i'll have to move on now i'll do a function about monthly hours
 
 alert("alright "+name+" now I am going to calculate the total hours you would play in a single month");
- 
+
+
+ function gamePrice(){
+     var final = 40;
+     var destiny = 80;
+     var donkey = 30;
+     var total = final + destiny + donkey;
+     return total;
+     console.log(total+" dollars");
+     alert("The total cost would be "+total+" dollars for them all!");
+ }
 
 
