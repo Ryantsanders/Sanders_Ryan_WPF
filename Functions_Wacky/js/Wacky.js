@@ -23,11 +23,11 @@ Name of Assignment
  alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours it takes to beat one!");
 
 
- var name  = prompt("Hello hello! how are you doing could you kindly tell me your name?");
+ var gameHours  = prompt("Yo everyone loves video games! I bet you do as well! mind telling me how many hours you play any type of video game a day?");
 
 
- while(name==="") {
-     name = prompt("Oh, come on tell me your name! I won't tell anyone!");
+ while(gameHours==="") {
+     gameHours = prompt("Oh, come on you can be that addicted that you won't even share the numbers!!");
 
  }
  console.log(name);

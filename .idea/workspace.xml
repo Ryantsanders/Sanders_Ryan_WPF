@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6da9aa03-7ee6-41c3-ac08-7159fac4382b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Industry/js/Industry.js" afterPath="$PROJECT_DIR$/Functions_Industry/js/Industry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Personal/js/Personal.js" afterPath="$PROJECT_DIR$/Functions_Personal/js/Personal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/Wacky.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/Wacky.js" />
     </list>
     <ignored path="Sanders_Ryan_WPF.iws" />
