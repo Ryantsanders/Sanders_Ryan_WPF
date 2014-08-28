@@ -64,13 +64,9 @@ var gameType = prompt("Which of these other game types do you like role playing 
  }
 
 
- var functionName = function(){
-
- }
 
 
- functionName();
-
+ calArea();
 
  var calcArea = function calcARea(width, height){
      var area = width * height;
