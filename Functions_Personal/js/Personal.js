@@ -66,10 +66,11 @@ var gameType = prompt("Which of these other game types do you like role playing 
 
 
 
- calArea();
 
- var calcArea = function calcARea(width, height){
-     var area = width * height;
+
+ var gamePrice = function calcPrice(final, destiny, donkey){
+     var total = final + destiny + donkey;
      return area;
  }
 
+calcArea();
