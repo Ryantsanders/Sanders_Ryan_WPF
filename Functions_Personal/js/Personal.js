@@ -21,7 +21,7 @@ Name of Assignment
  //simple alert saying whats going on
  alert("Alright! so do you like video games? I know I sure do lets talk about a fighting came first!");
 
- 
+
  var fightingGame;
 
 
@@ -37,5 +37,5 @@ Name of Assignment
 
  //entering a tenarary for a game
 
- fightingGame = (age <17)? "Mortal Kombat": "Street Fighter";
+ fightingGame = (age >17)? "Mortal Kombat": "Street Fighter";
  console.log(fightingGame);
