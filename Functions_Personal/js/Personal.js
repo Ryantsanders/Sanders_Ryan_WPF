@@ -21,11 +21,11 @@ Name of Assignment
  //simple alert saying whats going on
  alert("Alright! so do you like video games? I know I sure do lets talk about a fighting came first!");
 
- var age = 6;
- var book;
+ var age = 17;
+ var fightingGame;
 
 
  //if the child is under 1-, they get green eggs and ham, otherwise they get the time machine
 
- book = (age <10)? "green eggs and ham": "thet ime machine";
+ fightingGame = (age <17)? "Mortal Kombat": "Street Fighter";
  console.log(book);
