@@ -48,4 +48,11 @@ var gameType = prompt("Which of these other game types do you like role playing 
  var shooting = "shooting";
  var adventure = "adventure";
 
+ if (gameType = rpg){
+     console.log("Final Fantasy is a good choice for you "+name+" !");
+ }else if(gameType = shooting){
+     console.log("Destiny is a good shooter for you to play "+name+ "!");
+ }
+   
+
 
