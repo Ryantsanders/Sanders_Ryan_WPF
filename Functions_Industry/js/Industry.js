@@ -65,10 +65,10 @@ if(computerGpu ==="nvidia"){
 
 
 
-function calcPrice(){
+function computerChoice(){
+var intelComputer = computerCpu === "intel" && computerGpu === "nvidia";
+    
 
-    var price = computerCpu + computerGpu;
-    console.log(price);
 }
 
-calcPrice();
+computerChoice();
