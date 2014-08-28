@@ -12,7 +12,7 @@ Name of Assignment
  var name  = prompt("Hi hi! how are you doing could you kindly tell me your name?");
 
 
- if(name === "") {
+ while(name === "") {
      name = prompt("Oh, come on tell me your name! I won't tell anyone!");
 
  }
@@ -31,7 +31,7 @@ Name of Assignment
  var age  = prompt("hello "+ name +" would you mind telling me your age?");
 
 //validating the age prompt
- if(age === "") {
+ while(age === "") {
      age = prompt("oh come on if you don't tell me your age I can't go any further!!");
 
  }
@@ -44,8 +44,8 @@ Name of Assignment
 
 //adding a variable for game type chosen
 var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games? (make your choice by typing either rpg, shooting or adventure");
- if(gameType ===""){
-
+ while(gameType ===""){
+    gameType = prompt("I really need you to enter either rpg, shooting or adventure please!");
  }
 
  //added more variables based on the certain games
@@ -72,7 +72,9 @@ alert("Hey, "+name+" I went ahead and added the total for all three games just i
      var destiny = 80;
      var donkey = 30;
      var total = final + destiny + donkey;
+     return total;
      console.log(total+" dollars");
+     alert("The total cost would be "+total+" dollars for them all!");
  }
 
 
@@ -83,6 +85,6 @@ var total = final + destiny + donkey;
 
 gamePrice();
 
-alert("The total cost would be "+total+" dollars for them all!");
+
 
 

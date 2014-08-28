@@ -13,7 +13,7 @@ Name of Assignment
  var name  = prompt("Hello hello! how are you doing could you kindly tell me your name?");
 
 
- if(name === "") {
+ while(name==="") {
      name = prompt("Oh, come on tell me your name! I won't tell anyone!");
 
  }
@@ -21,5 +21,14 @@ Name of Assignment
 
  //simple alert saying whats going on
  alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours it takes to beat one!");
- 
+
+
+ var name  = prompt("Hello hello! how are you doing could you kindly tell me your name?");
+
+
+ while(name==="") {
+     name = prompt("Oh, come on tell me your name! I won't tell anyone!");
+
+ }
+ console.log(name);
 

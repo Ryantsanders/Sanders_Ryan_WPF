@@ -12,7 +12,7 @@
 //Asking the user for their name to get everything started
 var name = prompt("Hello, my name is Ryan nice to meet you, could you please tell me your name");
 
-if(name === "") {
+while(name === "") {
     name = prompt("Excuse me! I really need you to tell me your name!!");
 
 }
@@ -26,7 +26,7 @@ alert("So we are going to pick out some parts for a computer get excited!");
 var computerCpu = prompt("So which type of CPU do you prefer Intel or Amd?");
 
 //start my if statements to give the prices and other variables that go into it
-if(computerCpu === "") {
+while(computerCpu === "") {
     computerCpu = prompt("I think that is a really important part! you should think about answering it Intel or Amd?");
 
 }
@@ -48,7 +48,7 @@ if(computerCpu === "intel"){
 var computerGpu = prompt("hmm next up what type of GPU do you prefer Nvidia or Amd?");
 
 
-if(computerGpu === "") {
+while(computerGpu === "") {
     computerGpu = prompt("I think that is a really important part! you should think about answering it Nvidia or Amd?");
 
 }
