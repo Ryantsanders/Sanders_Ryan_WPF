@@ -10,7 +10,7 @@ Name of Assignment
 
 
  //added name prompt and to check for validation
- var name  = prompt("Hi hi! how are you doing could you kindly tell me your name?");
+ var name  = prompt("Hello hello! how are you doing could you kindly tell me your name?");
 
 
  if(name === "") {
@@ -20,5 +20,6 @@ Name of Assignment
  console.log(name);
 
  //simple alert saying whats going on
- alert("Alright! so do you like video games? I know I sure do lets talk about a fighting came first!");
+ alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours it takes to beat one!");
+ 
 
