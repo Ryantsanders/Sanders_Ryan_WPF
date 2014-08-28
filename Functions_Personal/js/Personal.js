@@ -43,5 +43,9 @@ Name of Assignment
  console.log(fightingGame);
 
 
-var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games?");
+var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games? (make your choice by typing either rpg, shooting or adventure");
+ var rpg = "rpg";
+ var shooting = "shooting";
+ var adventure = "adventure";
+
 
