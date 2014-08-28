@@ -3,7 +3,7 @@
 Ryan Sanders
 WPF 1418 Section 01
 Name of Assignment
-8-13-2014
+8-28-2014
  */
 
 //alert("Testing 1,2,3")
@@ -22,9 +22,8 @@ Name of Assignment
  alert("Alright! so do you like video games? I know I sure do lets talk about a fighting came first!");
 
 
+//addinga  variable for a game as well as an if statement and a tenary
  var fightingGame;
-
-
 
  var age  = prompt("hello "+ name +" would you mind telling me your age?");
 
@@ -39,3 +38,4 @@ Name of Assignment
 
  fightingGame = (age >17)? "Mortal Kombat": "Street Fighter";
  console.log(fightingGame);
+
