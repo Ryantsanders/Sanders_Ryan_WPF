@@ -48,12 +48,13 @@ Name of Assignment
 var totalHours = function(){
     var hoursWeek = gameHours * gameDays;
     return hoursWeek;
-    alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is "+hoursWeek+" hours a week");
+
 
 }
 
 totalHours();
+var weeklyHours = hoursWeek;
 
-
+ alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is "+weeklyHours+" hours a week");
 
 
