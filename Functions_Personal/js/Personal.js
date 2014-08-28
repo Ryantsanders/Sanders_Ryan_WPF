@@ -13,7 +13,7 @@ Name of Assignment
 
 
  if(name === "") {
-     name = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
+     name = prompt("Oh, come on tell me your name! I won't tell anyone!");
 
  }
  console.log(name);
