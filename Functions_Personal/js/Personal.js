@@ -63,17 +63,26 @@ var gameType = prompt("Which of these other game types do you like role playing 
      console.log("a good adventure game for you is Donkey Kong!")
  }
 
+//alert about total
+alert("Hey, "+name+" I went ahead and added the total for all three games just in case you might have wanted to know!");
 
-
+//added a function that added together the total price of the games
  function gamePrice(){
      var final = 40;
      var destiny = 80;
      var donkey = 30;
      var total = final + destiny + donkey;
-     console.log(total);
+     console.log(total+" dollars");
  }
 
 
+var final = 40;
+var destiny = 80;
+var donkey = 30;
+var total = final + destiny + donkey;
+
 gamePrice();
+
+alert("The total cost would be "+total+" dollars for them all!");
 
 
