@@ -54,14 +54,16 @@ var totalHours = function(){
 
 totalHours();
 
+var gameMonth = totalHours * 4;
+
 //couldn't get an alert to pop up with the hoursWeek but i'll have to move on now i'll do a function about monthly hours
 
 alert("alright "+name+" now I am going to calculate the total hours you would play in a single month");
 
 
  function hoursMonth(dailyHours, weeklyHours, monthlyHours){
-
+    return hoursMonth;
 
  }
-
+hoursMonth(gameHours, gameDays, gameMonth);
 
