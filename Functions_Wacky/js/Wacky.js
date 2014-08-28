@@ -20,7 +20,7 @@ Name of Assignment
  console.log(name);
 
  //simple alert saying whats going on
- alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours it takes to beat one!");
+ alert("Alright! back again this time we are still going to go on about video games because I just love them however this time we will talk about how many hours you play games and other things!");
 
 
  var gameHours  = prompt("Yo everyone loves video games! I bet you do as well! mind telling me how many hours you play any type of video game a day?");
