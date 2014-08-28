@@ -41,4 +41,4 @@ Name of Assignment
      gameDays = prompt("oh you really are trying to keep it a secret! must be one of those everyday people but really please enter the amount of days!!");
 
  }
- console.log(gameDays);
+ console.log(gameDays+" days a week");
