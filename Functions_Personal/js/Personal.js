@@ -25,7 +25,7 @@ Name of Assignment
  var fightingGame;
 
 
- //if the child is under 1-, they get green eggs and ham, otherwise they get the time machine
+ //entering a tenarary for a game
 
  fightingGame = (age <17)? "Mortal Kombat": "Street Fighter";
- console.log(book);
+ console.log(fightingGame);
