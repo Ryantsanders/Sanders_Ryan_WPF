@@ -45,7 +45,7 @@ Name of Assignment
 
 var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games? (make your choice by typing either rpg, shooting or adventure");
  if(gameType ===""){
-    
+
  }
  var rpg = "rpg";
  var shooting = "shooting";
