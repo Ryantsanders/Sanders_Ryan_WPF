@@ -21,7 +21,7 @@ Name of Assignment
  //simple alert saying whats going on
  alert("Alright! so do you like video games? I know I sure do lets talk about a fighting came first!");
 
- var age = 17;
+ 
  var fightingGame;
 
 
@@ -30,7 +30,7 @@ Name of Assignment
 
 
  if(age === "") {
-     age = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
+     age = prompt("oh come on if you don't tell me your age I can't go any further!!");
 
  }
  console.log(age +" years old");
