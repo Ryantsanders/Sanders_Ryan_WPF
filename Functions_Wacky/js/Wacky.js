@@ -53,8 +53,9 @@ var totalHours = function(){
 }
 
 totalHours();
-var weeklyHours = hoursWeek;
 
- alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is "+weeklyHours+" hours a week");
+//couldn't get an alert to pop up with the hoursWeek but i'll have to move on now i'll do a function about monthly hours
+
+
 
 
