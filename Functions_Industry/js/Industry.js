@@ -59,19 +59,3 @@ if(computerGpu ==="nvidia"){
 }else{
     console.log(amdGpu);
 }
-
-
-
-
-
-
-function computerChoice(){
-var intelComputer = computerCpu === intelCpu && computerGpu === nvidiaGpu;
-console.log(intelComputer);
-
-
-
-
-}
-
-computerChoice();
