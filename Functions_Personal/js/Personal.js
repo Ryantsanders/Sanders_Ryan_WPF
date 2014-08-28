@@ -77,10 +77,3 @@ var gameType = prompt("Which of these other game types do you like role playing 
 gamePrice();
 
 
- var gamePrice = function calcPrice(final, destiny, donkey){
-     var total = final + destiny + donkey;
-     return total;
- }
-
- var gameTotal = calcPrice(40, 80, 30);
- console.log(gameTotal);
