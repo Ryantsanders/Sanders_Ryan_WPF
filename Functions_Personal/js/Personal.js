@@ -29,11 +29,11 @@ Name of Assignment
  var age  = prompt("hello "+ name +" would you mind telling me your age?");
 
 
- if(name === "") {
-     name = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
+ if(age === "") {
+     age = prompt("Whoa you must be a person of mystery! however I think it would be a good idea if you can tell me your name!");
 
  }
- console.log(name +" years old");
+ console.log(age +" years old");
 
  //entering a tenarary for a game
 
