@@ -74,4 +74,5 @@ var gameType = prompt("Which of these other game types do you like role playing 
  }
 
  var gameTotal = calcPrice(40, 80, 30);
+ console.log(gameTotal);
 calcArea();
