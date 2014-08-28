@@ -56,6 +56,7 @@ totalHours();
 
 //couldn't get an alert to pop up with the hoursWeek but i'll have to move on now i'll do a function about monthly hours
 
-
+alert("alright "+name+" now I am going to calculate the total hours you would play in a single month");
+ 
 
 
