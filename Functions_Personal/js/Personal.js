@@ -23,6 +23,9 @@ Name of Assignment
 
 
 //addinga  variable for a game as well as an if statement and a tenary
+
+
+
  var fightingGame;
 
  var age  = prompt("hello "+ name +" would you mind telling me your age?");
@@ -38,4 +41,7 @@ Name of Assignment
 
  fightingGame = (age >17)? "Mortal Kombat": "Street Fighter";
  console.log(fightingGame);
+
+
+var gameType = prompt("Which of these other game types do you like role playing games, shooting games or adventure games?");
 
