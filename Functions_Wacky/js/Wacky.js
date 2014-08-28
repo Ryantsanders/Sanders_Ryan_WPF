@@ -42,3 +42,10 @@ Name of Assignment
 
  }
  console.log(gameDays+" days a week");
+
+ //alerting the user that I have collected their data and calculated with an ano function
+
+
+
+ alert("Hey "+name+" I have calculated the total hours you play a week based on your input which is");
+
