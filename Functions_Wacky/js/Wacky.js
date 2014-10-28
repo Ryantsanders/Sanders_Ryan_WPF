@@ -68,3 +68,5 @@ alert("alright "+name+" now I am going to calculate the total hours you would pl
  }
 var totalHoursMonth = hoursMonth(gameHours, gameDays, gameMonth);
 console.log(totalHoursMonth+" hours is how many hours you spend playing games in a month!");
+
+
